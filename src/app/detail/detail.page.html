@@ -3,15 +3,13 @@
     <ion-grid>
       <ion-row>
         <ion-col>
-          <div>
-            <ion-img src="assets/img/esports.png" style="width:50px; "></ion-img>
-          </div>
+          <ion-img href="#" src="assets/img/esports.png" style="width:30px; "></ion-img>
         </ion-col>
-        <ion-col>
-          <ion-searchbar></ion-searchbar>
+        <ion-col style="text-align: center; align-self:center;">
+          TECHNO
         </ion-col>
-        <ion-col>
-          <div style="float:right">Rully 50pts</div>
+        <ion-col style="text-align: right; align-self:center;">
+          Rully <span style="color:green">50pts</span>
         </ion-col>
       </ion-row>
     </ion-grid>
@@ -23,14 +21,21 @@
   <ion-card>
     <img src="assets/img/FIFA20_500.jpg"/>
     <ion-card-header>
-      <ion-card-title>Card Title</ion-card-title>
-      <ion-card-subtitle>28 Juni 2030</ion-card-subtitle>
-      <ion-card-subtitle>12.00 - 17.30</ion-card-subtitle>
-      <ion-card-subtitle>Universitas Multimedia Nusantara</ion-card-subtitle>
+      <ion-card-title class="card-title">Indonesia E-Sports League University Series</ion-card-title>
+      <ion-card-subtitle class="card-subtitle" color="warning">FIFA 20 Competition</ion-card-subtitle>
+      <ion-card-subtitle>
+        <ion-icon name="calendar-outline"></ion-icon> 28 Juni 2030
+      </ion-card-subtitle>
+      <ion-card-subtitle>
+        <ion-icon name="time-outline"></ion-icon> 12.00 - 17.30
+      </ion-card-subtitle>
+      <ion-card-subtitle>
+        <ion-icon name="location-outline"></ion-icon> Universitas Multimedia Nusantara
+      </ion-card-subtitle>
     </ion-card-header>
   
     <ion-card-content>
-      Deskrpsi Event<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a ipsum sit amet nisl tristique scelerisque. Nulla luctus, sapien vitae sodales aliquam, justo ante aliquet sem, quis feugiat urna libero in magna. Sed eu est vitae purus finibus facilisis eget sit amet odio. Quisque mattis in orci et egestas. Sed in ante vitae quam fringilla scelerisque. Quisque pharetra lorem ut dui blandit luctus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+      Deskripsi Event<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a ipsum sit amet nisl tristique scelerisque. Nulla luctus, sapien vitae sodales aliquam, justo ante aliquet sem, quis feugiat urna libero in magna. Sed eu est vitae purus finibus facilisis eget sit amet odio. Quisque mattis in orci et egestas. Sed in ante vitae quam fringilla scelerisque. Quisque pharetra lorem ut dui blandit luctus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
       Pellentesque pretium augue velit, sed congue magna fringilla ac. Aenean at metus in ante suscipit venenatis. Mauris consequat at erat quis venenatis. Mauris aliquet, metus non tempus aliquet, ligula quam ultrices purus, vitae lacinia lectus ipsum in enim. Maecenas leo diam, consectetur vitae ex in, egestas tincidunt nisl. Proin nec nunc elit. Donec a velit facilisis, tempus erat in, convallis nisl.
       
@@ -41,17 +46,21 @@
       Sed et metus faucibus, mattis mauris eget, interdum leo. Nulla scelerisque ligula finibus massa tincidunt posuere. Pellentesque at purus dui. Cras lobortis arcu eget tellus iaculis feugiat. Aliquam condimentum, magna in dictum commodo, nisl magna faucibus leo, sed accumsan arcu est et dolor. Phasellus ullamcorper arcu id porta mattis. Nullam eu posuere tortor, eget sodales ex. Morbi condimentum bibendum lectus, vel aliquet purus fringilla sed. Cras ac quam ante.
     </ion-card-content>
   </ion-card>
-  
-  <ion-footer>
-    <ion-toolbar>
-      <ion-grid>
-        <ion-row>
-          <ion-title>FIFA 20 Competition</ion-title>
-          <ion-title>Harga Rp. xxx</ion-title>
-            <ion-button href="/pembayaran" color="warning">DAFTAR</ion-button>
-        </ion-row>
-      </ion-grid>
-    </ion-toolbar>
-  </ion-footer>
 
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row style="text-align: center;">
+        <ion-col style="align-self:center;">
+          <ion-title style="font-size:medium;">Harga Rp.50.000</ion-title>
+          Harga Rp.50.000
+        </ion-col>
+        <ion-col style="text-align: right;">
+          <ion-button href="/pembayaran" color="warning">DAFTAR</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-footer>
