@@ -1,0 +1,16 @@
+.logo-start{
+    width: 153px;
+    margin: auto;
+    margin-top: 133px;
+    filter: brightness(0) invert(1);
+}
+
+.input{
+    width: 226px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    --placeholder-color: gray;
+}
