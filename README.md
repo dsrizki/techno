@@ -8,3 +8,9 @@ Page Detail
 
 Page PEMBAYARAN
 /pembayaran
+
+/signin
+
+/signup
+
+/startscreen
